@@ -1,5 +1,7 @@
 # Margin：让摘录重新进入视线
 
+[打开 Margin](https://margin.topiniu.com) · 仓库名 kindle-coach
+
 ![Margin 阅读墙，使用公版文字](../assets/margin-wall.png)
 
 读书时划下的句子，往往很少再被打开。Margin 从摘录开始，把书库、阅读回顾与后续行动组织在一起；首页将摘录铺成卡片，点击后进入聚焦阅读，再回到原来的位置。
