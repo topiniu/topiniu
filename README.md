@@ -28,7 +28,7 @@
 
 **[Zhuzhu](cases/zhuzhu.md)** — 浏览器测试工具。编辑用例、执行步骤，查看截图和运行报告。案例里有一组真实执行的演示用例。
 
-**[Office Lab](cases/office-lab.md)** — 开发协作看板。用 Markdown 保存需求和任务状态，跟进测试、阻塞问题与人工验收。
+**[Office Lab](cases/office-lab.md)**：开发协作工作台。用 Markdown 记录需求、测试和人工验收的进度。任务中断时，可以带着进度摘要切换到另一个 Agent 继续。
 
 <sub>这两个仓库暂未公开，案例使用虚构业务数据。</sub>
 
