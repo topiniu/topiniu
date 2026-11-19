@@ -10,17 +10,25 @@
 
 ## AI 与开发工具
 
-### [猪猪 E2E](https://topiniu.com/posts/zhuzhu-e2e/)
+### [Vision E2E / 猪猪 E2E](https://github.com/topiniu/vision-e2e-showcase)
 
-浏览器自动化测试工具。将 AI 编写用例与 Playwright 确定性执行分开，用可复跑的用例、断言、截图和 trace 核对结果、定位问题。也是 Office Lab 中的测试执行环节。
+个人独立开发的浏览器 E2E 工作台，覆盖 Electron / React 桌面面板、Playwright 执行器、HTTP/MCP 集成和证据报告链路。公开仓库是基于 v1.11 整理的脱敏求职展示版。
 
-[读猪猪的故事 ↗](https://topiniu.com/posts/zhuzhu-e2e/) · [演示与项目说明](cases/zhuzhu.md)
+- 让桌面面板和 HTTP/MCP 入口共用执行引擎，支持可见页面与无头会话。
+- 通过异步会话、进度事件、分层超时、取消和可选进程隔离处理长任务。
+- 用显式断言判定结果，保存截图、trace、诊断和可校验的证据包。
+
+演示使用本地合成网页，无需业务账号。按说明安装后运行 `npm run demo`，同时验证正例通过、故意错误的反例失败，并校验证据包。1.11.3 展示版通过 **748 项自动化测试**，验证记录和 CI 可查。
+
+[开源仓库](https://github.com/topiniu/vision-e2e-showcase) · [可复现演示](https://github.com/topiniu/vision-e2e-showcase/blob/main/docs/demo.md) · [验证记录](https://github.com/topiniu/vision-e2e-showcase/blob/main/docs/verification.md) · [CI](https://github.com/topiniu/vision-e2e-showcase/actions/workflows/ci.yml)
+
+[开发故事](https://topiniu.com/posts/zhuzhu-e2e/) · [早期 1.8.0 演示案例](cases/zhuzhu.md)
 
 ### [Office Lab](cases/office-lab.md)
 
 我和 AI 一起搭建的研发工作台，用任务档案、角色交接与验收证据串联需求、开发、测试和人工确认。任务中断时，可以带着进度摘要切换到另一个 Agent 继续。
 
-<sub>这两个仓库暂未公开，案例使用虚构业务数据。</sub>
+<sub>Office Lab 的案例使用虚构业务数据。</sub>
 
 ## 个人作品
 
